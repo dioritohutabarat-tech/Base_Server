@@ -71,7 +71,6 @@ export const DashboardPage: React.FC = () => {
       <div className="bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-600 rounded-2xl p-6 text-white shadow-lg shadow-blue-600/15 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <div>
           <div className="flex items-center space-x-2 text-blue-100 text-xs font-semibold uppercase tracking-wider mb-1">
-            <Sparkles className="w-4 h-4" />
             <span>Dashboard Operasional</span>
           </div>
           <h1 className="text-2xl font-black tracking-tight">

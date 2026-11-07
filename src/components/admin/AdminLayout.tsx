@@ -3,7 +3,6 @@ import { Link, NavLink, Outlet, useNavigate } from 'react-router-dom';
 import {
   LayoutDashboard,
   Shirt,
-  Sparkles,
   Users,
   LogOut,
   ExternalLink,
@@ -86,9 +85,6 @@ export const AdminLayout: React.FC = () => {
         {/* Sidebar Brand Header */}
         <div className="p-5 border-b border-slate-100 flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-700 to-blue-500 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-blue-500/20">
-              <Sparkles className="w-5 h-5" />
-            </div>
             <div>
               <h2 className="font-extrabold text-slate-900 tracking-tight leading-tight">
                 {PROFIL_USAHA.nama}
