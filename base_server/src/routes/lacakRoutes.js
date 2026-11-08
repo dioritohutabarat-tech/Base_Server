@@ -4,4 +4,4 @@ const lacakController = require('../controllers/lacakController');
 
 router.get('/:nota', lacakController.lacakNota);
 
-module.exports = router;
+module.exports = router;z
